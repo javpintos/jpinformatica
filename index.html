@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JPInformatica</title>
+        <meta name="author" content="Javier Pintos">
+        <meta name="keywords" content="Pagina web, informatica, jpinformatica, La Rioja">
+        <meta name="description" content="Pagina web de JPInformatica">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/scrollomatic.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/prefixfree.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("a.scroll").scrollomatic();
+            })
+        </script>
+    </head>
+<body>
+    <header>
+        <a href="#home" class="scroll">
+            <div id="logo"></div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#home" class="scroll">Home</a></li>
+                <li><a href="#servicios" class="scroll">Servicios</a></li>
+                <li><a href="#productos" class="scroll">Productos</a></li>
+                <li><a href="#contacto" class="scroll">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contenido">
+        <video autoplay loop preload="auto">
+            <source src="video/video.mp4" type="video/mp4">
+            <source src="video/video.ogv" type="video/ogg">
+            <source src="video/video.webm" type="video/webm">
+            <p>Su navegador no soporta la etiqueta video</p>
+        </video>
+        <section id="home">
+            <div id="globo"></div>
+            <h2>Bienvenido a <span>jp</span>informatica.com.ar</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla asperiores aut sunt ipsam officiis quas rem quaerat mollitia dicta dignissimos odit, nisi aspernatur iste soluta tempora repudiandae nostrum dolorum animi?</p>
+            <a href="#servicios" class="scroll">Conozca más</a>
+            <div id="abajo"></div>
+        </section>
+        <section id="servicios">
+            <h3>Servicios</h3>
+            <article>
+                <div id="imagen1"></div>
+                <h4>Servicio 1</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita aliquid minus enim impedit tenetur iusto quibusdam accusamus.</p>
+                <a href="#">Leer mas</a>
+                <div id="imagen2"></div>
+                <h4>Servicio 2</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita aliquid minus enim impedit tenetur iusto quibusdam accusamus.</p>
+                <a href="#">Leer mas</a>
+                <div id="imagen3"></div>
+                <h4>Servicio 3</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita aliquid minus enim impedit tenetur iusto quibusdam accusamus.</p>
+                <a href="#">Leer mas</a>
+            </article>
+        </section>
+        <section id="productos">
+            <h3>Nuestros Productos</h3>
+            <div id="fotos">
+                <a href="" title="Imagen1"><img src="img/1.jpg" alt="imagen1"></a>
+                <a href="" title="Imagen2"><img src="img/2.jpg" alt="imagen2"></a>
+                <a href="" title="Imagen3"><img src="img/3.jpg" alt="imagen3"></a>
+                <a href="" title="Imagen4"><img src="img/4.jpg" alt="imagen4"></a>
+                <a href="" title="Imagen5"><img src="img/5.jpg" alt="imagen5"></a>
+                <a href="" title="Imagen6"><img src="img/6.jpg" alt="imagen6"></a>
+                <a href="" title="Imagen7"><img src="img/7.jpg" alt="imagen7"></a>
+                <a href="" title="Imagen8"><img src="img/8.jpg" alt="imagen8"></a>
+                <a href="" title="Imagen9"><img src="img/9.jpg" alt="imagen9"></a>
+                <a href="" title="Imagen10"><img src="img/10.jpg" alt="imagen10"></a>
+            </div>
+        </section>
+        <section id="contacto">
+            <h3>Contactenos</h3>
+            <h4>Cel. 0380-4729242  ::  Email: contacto@jpinformatica.com.ar</h4>
+            <div id="formulario">
+                <form action="#" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="telefono" placeholder="Telefono" pattern="[0-9]{3}\s[0-9]{3}\s[0-9]{4}$" title="Ej. 123 123 1234" required>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <input type="submit" value="Enviar datos">
+                </form>
+            </div>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8263.760382571812!2d-66.86984589967253!3d-29.44389626022876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1584109576597!5m2!1ses-419!2sar" width="600" height="450"></iframe>
+            </div>
+            <a href="#contenido" class="arriba scroll"></a>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2020 Javier Pintos - Todos los derechos reservados</p>
+        </footer>
+    </main>
+    </body>
+</html>
