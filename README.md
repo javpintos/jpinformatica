@@ -4,5 +4,5 @@ Pagina web de pequeña empresa jpinformatica, hecha completamnente en HTML5 y CS
     Solo utiliza JQuery para el scroller
     formulario de contacto
     Iframe de Google Maps
-    https://javpintos.github.io/webPersonal/index.html
+    https://javpintos.github.io/jpinformatica/index.html
 
